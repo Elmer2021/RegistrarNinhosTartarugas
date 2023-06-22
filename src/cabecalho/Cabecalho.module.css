@@ -1,0 +1,53 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    list-style-type: none;
+    margin-right: 50px;
+
+}
+.cue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+
+
+    
+
+}
+
+
+img#logoticoUTA {
+    height: 8vh;
+}
+
+img#logoticoUTA:hover {
+    cursor: pointer;
+}
+
+
+h1.titulo {
+    font-size: clamp(0.2em, 0.5em + 1vw, 1.25em);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #E3E0DF;
+    font-weight: normal;
+}
+
+
+
+
+
+ li {
+    margin-left: 32px;
+    letter-spacing: 1px;
+    color: black;
+    display: flex;
+    font-weight: 600;
+  text-decoration: none;
+  margin-right: 50px;
+}
